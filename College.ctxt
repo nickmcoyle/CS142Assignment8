@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=College
+comment0.text=\r\n\ A\ class\ to\ represent\ a\ College\ student.\ The\ college\ student\ may\ take\ up\ to\ 30\ credits.\ Each\ credit\ costs\ $110.0\ each.\ \r\n\r\n\ @author\ Nick\ Coyle\r\n\ @version\ 12/10/2018\r\n
+comment1.params=id\ first\ last\ day\ month\ year\ sex\ numCredits
+comment1.target=College(java.lang.String,\ java.lang.String,\ java.lang.String,\ int,\ int,\ int,\ Sex,\ int)
+comment2.params=
+comment2.target=double\ getPrice()
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment4.params=
+comment4.target=void\ test()
+numComments=5

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=ESLStudents
+comment0.text=\r\n\ A\ wrapper\ class\ for\ a\ collection\ of\ Students\ of\ type\ ESL.\r\n\r\n\ @author\ Nick\ Coyle\r\n\ @version\ 12/10/2018\r\n
+comment1.params=
+comment1.target=ESLStudents()
+comment2.params=ESLStudent
+comment2.target=void\ add(ESL)
+comment3.params=index
+comment3.target=void\ remove(int)
+comment4.params=id
+comment4.target=int\ isFound(java.lang.String)
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment6.params=
+comment6.target=void\ test()
+numComments=7

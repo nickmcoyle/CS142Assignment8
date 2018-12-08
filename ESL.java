@@ -1,6 +1,6 @@
 
 /**
- * Write a description of class ESL here.
+ * A class to represent an ESL English as a Second Language student. The ESL student only takes 5 credits and tuition always costs $25.0.
  *
  * @author Nick Coyle
  * @version 12/10/2018
@@ -32,8 +32,12 @@ public class ESL extends Student
        
     @Override
     public String toString() {
-        String str = "";
-        
+        String str = super.toString();
+        str += "Type: ESL Student" + " ";        
         return str;
+    }
+    
+    public static void test() {
+        
     }
 }

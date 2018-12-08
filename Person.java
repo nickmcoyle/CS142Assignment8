@@ -1,6 +1,6 @@
 
 /**
- * Write a description of interface Person here.
+ * An interface to model a homo sapien.
  *
  * @author Nick Coyle
  * @version 12/10/2018

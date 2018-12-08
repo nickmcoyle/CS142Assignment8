@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=ESL
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ ESL\ here.\r\n\r\n\ @author\ Nick\ Coyle\r\n\ @version\ 12/10/2018\r\n
+comment0.text=\r\n\ A\ class\ to\ represent\ an\ ESL\ English\ as\ a\ Second\ Language\ student.\ The\ ESL\ student\ only\ takes\ 5\ credits\ and\ tuition\ always\ costs\ $25.0.\r\n\r\n\ @author\ Nick\ Coyle\r\n\ @version\ 12/10/2018\r\n
 comment1.params=id\ first\ last\ day\ month\ year\ sex\ level
 comment1.target=ESL(java.lang.String,\ java.lang.String,\ java.lang.String,\ int,\ int,\ int,\ Sex,\ Level)
 comment2.params=
@@ -11,4 +11,6 @@ comment4.params=
 comment4.target=double\ getPrice()
 comment5.params=
 comment5.target=java.lang.String\ toString()
-numComments=6
+comment6.params=
+comment6.target=void\ test()
+numComments=7

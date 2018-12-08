@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=CollegeStudents
+comment0.text=\r\n\ A\ wrapper\ class\ for\ a\ collection\ of\ Students\ of\ type\ College.\r\n\r\n\ @author\ Nick\ Coyle\r\n\ @version\ 12/10/2018\r\n
+comment1.params=
+comment1.target=CollegeStudents()
+comment2.params=collegeStudent
+comment2.target=void\ add(College)
+comment3.params=index
+comment3.target=void\ remove(int)
+comment4.params=id
+comment4.target=int\ isFound(java.lang.String)
+comment5.params=
+comment5.target=int\ getFullTime()
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment7.params=
+comment7.target=void\ test()
+numComments=8

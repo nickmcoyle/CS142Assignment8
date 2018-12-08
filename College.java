@@ -1,6 +1,6 @@
 
 /**
- * Write a description of class College here.
+ * A class to represent a College student. The college student may take up to 30 credits. Each credit costs $110.0 each. 
  *
  * @author Nick Coyle
  * @version 12/10/2018
@@ -19,9 +19,15 @@ public class College extends Student
     }
     
     @Override
-    public String toString() {
-        String str = "";
-        
+    public String toString() {        
+        String str = super.toString();
+        str += "Type: College Student" + " ";        
         return str;
+    }
+    
+    public static void test() {
+        College chip = new College("950666666", "Chip", "Kettle", 19, 12, 1988, Sex.MALE, 15);
+        College mrPib = new College("666666666", "Mister", "Pib", 1, 11, 1989, Sex.MALE, 0);
+        College doctorPepper = new College("123456789", "Dr", "Pepper", 19, 12, 1988, Sex.FEMALE, 13);
     }
 }

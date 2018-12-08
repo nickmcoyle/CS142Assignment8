@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 /**
- * Write a description of class CollegeStudents here.
+ * A wrapper class for a collection of Students of type College.
  *
  * @author Nick Coyle
  * @version 12/10/2018
@@ -11,7 +11,7 @@ public class CollegeStudents
     private ArrayList<College> collegeStudents;
 
     public CollegeStudents() {
-
+        collegeStudents = new ArrayList<College>();
     }
 
     public void add(College collegeStudent) {
@@ -56,4 +56,16 @@ public class CollegeStudents
         return str;
     }
 
+    public static void test() {
+        
+        CollegeStudents students =  new CollegeStudents();
+        
+        College chip = new College("950666666", "Chip", "Kettle", 19, 12, 1988, Sex.MALE, 15);
+        College mrPib = new College("666666666", "Mister", "Pib", 1, 11, 1989, Sex.MALE, 0);
+        College doctorPepper = new College("123456789", "Dr", "Pepper", 19, 12, 1988, Sex.FEMALE, 13);
+        
+        students.add(chip);
+        students.add(mrPib);
+        students.add(doctorPepper);
+    }
 }

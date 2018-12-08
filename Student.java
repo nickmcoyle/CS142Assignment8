@@ -1,6 +1,6 @@
 
 /**
- * class Student - write a description of the class here
+ * An abstract class to model a Student. A full time student is taking 13 credits or more. ID must be 9 digits.
  *
  * @author Nick Coyle
  * @version 12/10/2018
@@ -98,6 +98,10 @@ public abstract class Student implements Person
 
     @Override
     public void setID(String id) {
+        if(!id.matches("[0-9]{9}")) {
+            throw new IllegalArgumentException("ID is not valid, must be 9 digits");
+        }
+        
         this.ID = id;
     }
 
@@ -137,8 +141,10 @@ public abstract class Student implements Person
 
     @Override
     public String toString() {
-        String str = "";
-        str += lastName + ", " + firstName + " ";
+        String str = "Student: ";
+        str += lastName + ", " + firstName + " ID: " + ID + " ," + sex + " ";
+        str += "DOB: " + month + "/" + day + "/" + year + " ";
+        str += numCredits + " credits" + " ";
         return str;
     }
 }
