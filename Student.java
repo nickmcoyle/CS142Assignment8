@@ -16,8 +16,8 @@ public abstract class Student implements Person
 
     private int day;
     private int month;
-    private int year;
-
+    private int year; 
+    
     private int numCredits;
 
     public Student(String id, String first, String last, int day, int month, int year, Sex sex, int numCredits) {
@@ -65,15 +65,15 @@ public abstract class Student implements Person
     public int getYear() {
         return year;
     }
-    
+
     public void setCredits(int numCredits) {
         if(numCredits < 0 || numCredits > 30) {
             throw new IllegalArgumentException("Number of credits must be between 0 and 30");
         }
-        
-        this.numCredits = numCredits;
+
+        this.numCredits = numCredits;   
     }
-    
+
     public int getCredits() {
         return numCredits;
     }
@@ -101,7 +101,7 @@ public abstract class Student implements Person
         if(!id.matches("[0-9]{9}")) {
             throw new IllegalArgumentException("ID is not valid, must be 9 digits");
         }
-        
+
         this.ID = id;
     }
 
@@ -142,8 +142,8 @@ public abstract class Student implements Person
     @Override
     public String toString() {
         String str = "Student: ";
-        str += lastName + ", " + firstName + " ID: " + ID + " ," + sex + " ";
-        str += "DOB: " + month + "/" + day + "/" + year + " ";
+        str += lastName + ", " + firstName + " ID: " + ID + ", " + sex + ", ";
+        str += "DOB: " + month + "/" + day + "/" + year + ", ";
         str += numCredits + " credits" + " ";
         return str;
     }

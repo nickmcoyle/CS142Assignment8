@@ -1,4 +1,4 @@
 #BlueJ class context
 comment0.target=Sex
-comment0.text=\r\n\ Enumeration\ class\ Sex\ -\ write\ a\ description\ of\ the\ enum\ class\ here\r\n\r\n\ @author\ Nick\ Coyle\r\n\ @version\ 12/10/2018\r\n
+comment0.text=\r\n\ Enumeration\ class\ Sex\ -\ person\ can\ be\ either\ male\ or\ female\ in\ this\ model\r\n\r\n\ @author\ Nick\ Coyle\r\n\ @version\ 12/10/2018\r\n
 numComments=1

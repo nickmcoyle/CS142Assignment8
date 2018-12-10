@@ -1,6 +1,6 @@
 
 /**
- * Enumeration class Level - write a description of the enum class here
+ * Enumeration class Level - this models the different measure of fluency of a student of english as a second language
  *
  * @author Nick Coyle
  * @version 12/10/2018

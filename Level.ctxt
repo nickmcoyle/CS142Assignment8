@@ -1,4 +1,4 @@
 #BlueJ class context
 comment0.target=Level
-comment0.text=\r\n\ Enumeration\ class\ Level\ -\ write\ a\ description\ of\ the\ enum\ class\ here\r\n\r\n\ @author\ Nick\ Coyle\r\n\ @version\ 12/10/2018\r\n
+comment0.text=\r\n\ Enumeration\ class\ Level\ -\ this\ models\ the\ different\ measure\ of\ fluency\ of\ a\ student\ of\ english\ as\ a\ second\ language\r\n\r\n\ @author\ Nick\ Coyle\r\n\ @version\ 12/10/2018\r\n
 numComments=1

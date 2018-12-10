@@ -1,6 +1,6 @@
 
 /**
- * Enumeration class Sex - write a description of the enum class here
+ * Enumeration class Sex - person can be either male or female in this model
  *
  * @author Nick Coyle
  * @version 12/10/2018
